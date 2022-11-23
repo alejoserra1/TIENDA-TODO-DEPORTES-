@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/efbe7af7ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contacto.css">
+    <title>Sección de contacto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar-list">
+            
+            <label for="menuhamburguesa"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" name="menuhamburguesa" id="menuhamburguesa">
+            
+            
+            <ul class="ul-nav">
+                <li class="redirigir-contact"><a href="./index.html">Inicio</a></li>
+                <li class="tienda"><a href="./tienda.html">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <div class="card-contacto">
+    <div id="contacto" class="contacto-div">
+        <h1>Contactanos</h1>
+     <form id="addform" class="addform" action="">
+        <label for="name"></label>
+        <input type="text" id="inp-nombre" placeholder="ingrese su nombre">
+
+        <label for="mail"></label>
+        <input type="email" name="mail" placeholder="ingrese un email" id="inp-mail">
+
+        <label for="text"></label>
+        <input type="text" id="inp-consulta" placeholder="ingrese su consulta">
+
+        <button class="button" id="button-contacto" type="submit">Enviar</button>
+     </form>
+    </div>
+ </div>
+
+ <div id="div-contacto-fantasma" class="divfantasma hidden-active">
+
+ </div>
+
+ <footer>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"></a><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"></a><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <div class="text-div">
+        <p>tododeportesnucba.vercel.app // Diseño y desarrollo: <i class="fa-solid fa-pen"></i>Alejo Serra.</p>
+    </div>
+</footer>
+
+    <script src="./contacto.js"></script>
+</body>
+</html>

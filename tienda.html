@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Todo Deportes</title>
+    <script src="https://kit.fontawesome.com/efbe7af7ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tienda.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+<main> 
+    <header class="header">
+        <nav class="navbar-list">
+            
+            <label for="menuhamburguesa"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" name="menuhamburguesa" id="menuhamburguesa">
+            
+            <ul class="ul-nav">
+                <li class="tienda"><a href="./index.html">Inicio</a></li>
+                <li class="redirigir-contact"><a href="./contacto.html">Contacto</a></li>
+                <a href="#fantasma"><button id="boton-carrito" class="botondelcarrito"><i class="fa-solid fa-basket-shopping"></i><span id="contador-carrito">0</span></button></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="div-icon-back">
+
+    </i><a href="./index.html"><i class="fa-solid fa-backward-fast"></i></a>
+    <ul class="ul2">
+        <li>
+            <a class="a-tipo" href="#">Tipo</a><i class="fa-solid fa-caret-down"></i>
+            <ul class="ul-interno">
+                <li><a id="todos" href="#">Todos</a></li>
+                <li><a id="barras-pesas" href="#">Barras o pesas</a></li>
+                <li><a id="funcional" href="#">Funcional</a></li>
+                <li><a id="maquinas-bancos" href="#">Maquinas fijas y bancos</a></li>
+                <li><a id="suplementos" href="#">Suplementos</a></li>
+            </ul>
+        </li>
+    </ul>
+    
+    </div>
+    <div class="titulo"><h1>Tienda</h1></div>
+    
+    <div id="section-cards" class="section-cards">
+
+    </div>
+    <div id="fantasma" class="hidden-active"></div>
+<div id="main-carrito" class="main-carrito hidden-active">
+    <div id="conteinercarrito" class="conteinercarrito">
+        <div class="title-button">
+            <h3>CARRITO DE COMPRAS</h3>
+            <button id="button-cerrar-carrito"><i class="fa-solid fa-square-xmark"></i></button>
+        </div>
+
+        <div id="carrito-contenedor" class="carrito-contenido">
+            
+        </div> 
+
+        <div class="total-y-boton">
+            <p>PRECIO TOTAL: $<span id="preciototal">0</span></p>
+            <button id="button-comprar" class="button-73">COMPRAR</button>
+        </div>
+
+        <button id="vaciar-carrito" class="vaciar-carrito">Vaciar Carrito</button>
+    </div>
+</div>
+</div>
+</main> 
+
+
+<footer>
+    <div class="contactanos">
+        <h4>Tienes alguna consulta? <a href="./contacto.html">CONTACTANOS<i class="fa-solid fa-arrow-left"></i></a></h4>
+    </div>
+
+    <div class="redes">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+</footer>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.div-icon-back{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.div-icon-back i{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(47, 48, 47);
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.card{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(148, 148, 148);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;    height: 500px;
+    width: 280px;
+    background-image: url(./assets/img-login.jpg);
+    background-position: 100%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.titulo h1{
+    font-size: 29px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.conteiner-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.conteiner-inputs input{
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    color: black;
+}
+
+.conteiner-inputs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.conteiner-inputs2 input{
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    color: black;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.div-btn input{
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: rgb(77, 85, 50);
+    color: aliceblue;
+    transition: 1s all;
+    cursor: pointer;
+    border: none;
+}
+
+.div-btn input:hover{
+    box-shadow: rgba(60, 255, 1, 0.4) 5px 5px, rgba(62, 197, 45, 0.3) 10px 10px, rgba(81, 255, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(146, 255, 4, 0.05) 25px 25px;
+    color: white;
+    background-color: rgb(50, 53, 54);
+}
+
+span{
+    font-size: 15px;
+}
+
+small{
+    font-size: 15px;
+}
+
+.success{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: inherit;
+}
+
+.error{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: inherit;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: brown;
+}

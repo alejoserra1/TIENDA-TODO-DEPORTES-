@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/efbe7af7ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <div class="div-icon-back"></i><a href="./index.html"><i class="fa-solid fa-backward-fast"></i></a></div>
+
+        <form id="addFormRegister" class="addFormRegister">
+            <div class="conteiner">
+
+                <div class="card-condiciones-register">
+
+                    <div class="div-h1-condiciones">
+                        <h1>Condiciones</h1>
+                    </div>
+
+                    <div class="conteiner-condiciones">
+                        <p>Usuario: 5 caracteres o más.</p>
+                        <p>Email: Chequear que sea un email válido.</p>
+                        <p>Contraseña: 6 caracteres o más.</p> 
+                    </div>
+                </div>
+
+
+                <div class="card">
+
+                    <div class="div-h1">
+                        <h1>Registrarse</h1>
+                    </div>
+
+                    <div class="conteiner-inputs">
+                    <div class="div-inp-individual">
+                        <label for="usuario"></label>
+                        <input type="text" name="usuario" id="usuarioRegister" placeholder="Usuario">
+                        <img id="valida" class="valida" src="./assets/valido.png" alt="img-chequea">
+                        <img id="invalida" class="invalida" src="./assets/error.png" alt="img-chequea">
+                    </div>
+
+                    <div class="div-inp-individual">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="emailRegister" placeholder="Correo electrónico">
+                        <img id="valida2" class="valida" src="./assets/valido.png" alt="img-chequea">
+                        <img id="invalida2" class="invalida" src="./assets/error.png" alt="img-chequea">
+                        <span id="emailOk"></span>
+                    </div>    
+
+                    <div class="div-inp-individual">
+                        <label for="contraseña"></label>
+                        <input type="password" name="contraseña" id="contraseñaRegister" placeholder="Contraseña">
+                        <img id="valida3" class="valida" src="./assets/valido.png" alt="img-chequea">
+                        <img id="invalida3" class="invalida" src="./assets/error.png" alt="img-chequea">
+                    </div>  
+                    
+                    <div class="div-inp-individual">
+                        <label for="contraseña-repetida"></label>
+                        <input type="password" name="contraseña-repetida" id="contraseña-repetidaRegister" placeholder="Repetir contraseña">
+                        <img id="valida4" class="valida" src="./assets/valido.png" alt="img-chequea">
+                        <img id="invalida4" class="invalida" src="./assets/error.png" alt="img-chequea">
+                    </div>    
+                    </div>
+
+                    <div class="div-btn">
+                        <input id="button-confirmarRegister" type="submit" value="Confirmar">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <footer>
+            <p>¿Ya tiene una cuenta en TodoDeportes? <a href="./login.html">INGRESE</a>.</p>
+        </footer>
+    </main>
+
+
+
+
+
+
+    <script src="./register.js"></script>
+
+</body>
+</html>
